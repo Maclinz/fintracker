@@ -2,10 +2,15 @@
 import { useTheme } from "@/context/themeContext";
 import React from "react";
 import styled from "styled-components";
+import Overview from "../Overview/Overview";
 
 function MainContent() {
   const theme = useTheme();
-  return <MainContentStyled theme={theme}>MainContent</MainContentStyled>;
+  return (
+    <MainContentStyled theme={theme}>
+      <Overview />
+    </MainContentStyled>
+  );
 }
 
 const MainContentStyled = styled.section`
