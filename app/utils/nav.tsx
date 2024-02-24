@@ -39,7 +39,7 @@ const nav = [
   {
     title: "History",
     icon: clock,
-    link: "/categories",
+    link: "/history",
   },
   {
     title: "Notes",
